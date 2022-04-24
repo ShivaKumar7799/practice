@@ -1,0 +1,38 @@
+.color{
+  color: white;
+  background-color: red;
+}
+button{
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 20px;
+  cursor: pointer; 
+}
+
+.dropDown{
+  position: relative;
+  display: inline-block;
+}
+.dropBtn{
+  border: none;
+}
+.dropDown-content{
+  display: none;
+  position: absolute;
+  z-index: 1;
+  border: 1px solid black;
+  padding: 10px;
+  top: 50px;
+  left: 40%;
+  background-color: white;
+}
+.dropDown-content a{
+  text-decoration: none;
+  display: block;
+}
+.dropDown-content a:hover{
+  background-color: cyan;
+}
+.dropDown:hover .dropDown-content{
+  display: block;
+}
